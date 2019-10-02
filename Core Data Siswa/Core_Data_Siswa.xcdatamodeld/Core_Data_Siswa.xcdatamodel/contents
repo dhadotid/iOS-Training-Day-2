@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Siswa" representedClassName="Siswa" syncable="YES" codeGenerationType="class">
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="hobi" optional="YES" attributeType="String"/>
+        <attribute name="nama" optional="YES" attributeType="String"/>
+        <attribute name="nohp" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Siswa" positionX="-63" positionY="-18" width="128" height="103"/>
+    </elements>
+</model>

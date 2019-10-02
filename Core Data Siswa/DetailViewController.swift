@@ -10,10 +10,21 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    
+    @IBOutlet weak var lbGender: UILabel!
+    @IBOutlet weak var lbNama: UILabel!
+    @IBOutlet weak var lbNoHp: UILabel!
+    @IBOutlet weak var lbHobi: UILabel!
+    
+    var siswa: Siswa? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        lbNama.text = siswa?.nama
+        lbNoHp.text = siswa?.nohp
+        lbHobi.text = siswa?.hobi
+        lbGender.text = siswa?.gender
     }
     
 

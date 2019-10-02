@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157CB67523430D0000DDCAD5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CB67423430D0000DDCAD5 /* DetailViewController.swift */; };
+		158CAE372342F59B00D1532E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158CAE362342F59B00D1532E /* AppDelegate.swift */; };
+		158CAE392342F59B00D1532E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158CAE382342F59B00D1532E /* SceneDelegate.swift */; };
+		158CAE3B2342F59B00D1532E /* InsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158CAE3A2342F59B00D1532E /* InsertViewController.swift */; };
+		158CAE3E2342F59B00D1532E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 158CAE3C2342F59B00D1532E /* Main.storyboard */; };
+		158CAE412342F59B00D1532E /* Core_Data_Siswa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 158CAE3F2342F59B00D1532E /* Core_Data_Siswa.xcdatamodeld */; };
+		158CAE432342F59E00D1532E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158CAE422342F59E00D1532E /* Assets.xcassets */; };
+		158CAE462342F59E00D1532E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 158CAE442342F59E00D1532E /* LaunchScreen.storyboard */; };
+		158CAE4E2342FADA00D1532E /* SiswaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158CAE4D2342FADA00D1532E /* SiswaTableViewController.swift */; };
+		158CAE502342FAED00D1532E /* SiswaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158CAE4F2342FAED00D1532E /* SiswaTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		157CB67423430D0000DDCAD5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		158CAE332342F59B00D1532E /* Core Data Siswa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data Siswa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		158CAE362342F59B00D1532E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		158CAE382342F59B00D1532E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		158CAE3A2342F59B00D1532E /* InsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertViewController.swift; sourceTree = "<group>"; };
+		158CAE3D2342F59B00D1532E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		158CAE402342F59B00D1532E /* Core_Data_Siswa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data_Siswa.xcdatamodel; sourceTree = "<group>"; };
+		158CAE422342F59E00D1532E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		158CAE452342F59E00D1532E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		158CAE472342F59E00D1532E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		158CAE4D2342FADA00D1532E /* SiswaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiswaTableViewController.swift; sourceTree = "<group>"; };
+		158CAE4F2342FAED00D1532E /* SiswaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiswaTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		158CAE302342F59B00D1532E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		158CAE2A2342F59B00D1532E = {
+			isa = PBXGroup;
+			children = (
+				158CAE352342F59B00D1532E /* Core Data Siswa */,
+				158CAE342342F59B00D1532E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		158CAE342342F59B00D1532E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				158CAE332342F59B00D1532E /* Core Data Siswa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		158CAE352342F59B00D1532E /* Core Data Siswa */ = {
+			isa = PBXGroup;
+			children = (
+				158CAE362342F59B00D1532E /* AppDelegate.swift */,
+				158CAE382342F59B00D1532E /* SceneDelegate.swift */,
+				158CAE3A2342F59B00D1532E /* InsertViewController.swift */,
+				158CAE3C2342F59B00D1532E /* Main.storyboard */,
+				158CAE422342F59E00D1532E /* Assets.xcassets */,
+				158CAE442342F59E00D1532E /* LaunchScreen.storyboard */,
+				158CAE472342F59E00D1532E /* Info.plist */,
+				158CAE3F2342F59B00D1532E /* Core_Data_Siswa.xcdatamodeld */,
+				158CAE4D2342FADA00D1532E /* SiswaTableViewController.swift */,
+				158CAE4F2342FAED00D1532E /* SiswaTableViewCell.swift */,
+				157CB67423430D0000DDCAD5 /* DetailViewController.swift */,
+			);
+			path = "Core Data Siswa";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		158CAE322342F59B00D1532E /* Core Data Siswa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158CAE4A2342F59E00D1532E /* Build configuration list for PBXNativeTarget "Core Data Siswa" */;
+			buildPhases = (
+				158CAE2F2342F59B00D1532E /* Sources */,
+				158CAE302342F59B00D1532E /* Frameworks */,
+				158CAE312342F59B00D1532E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core Data Siswa";
+			productName = "Core Data Siswa";
+			productReference = 158CAE332342F59B00D1532E /* Core Data Siswa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		158CAE2B2342F59B00D1532E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = yudha;
+				TargetAttributes = {
+					158CAE322342F59B00D1532E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 158CAE2E2342F59B00D1532E /* Build configuration list for PBXProject "Core Data Siswa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 158CAE2A2342F59B00D1532E;
+			productRefGroup = 158CAE342342F59B00D1532E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				158CAE322342F59B00D1532E /* Core Data Siswa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		158CAE312342F59B00D1532E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158CAE462342F59E00D1532E /* LaunchScreen.storyboard in Resources */,
+				158CAE432342F59E00D1532E /* Assets.xcassets in Resources */,
+				158CAE3E2342F59B00D1532E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		158CAE2F2342F59B00D1532E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158CAE412342F59B00D1532E /* Core_Data_Siswa.xcdatamodeld in Sources */,
+				158CAE502342FAED00D1532E /* SiswaTableViewCell.swift in Sources */,
+				158CAE3B2342F59B00D1532E /* InsertViewController.swift in Sources */,
+				158CAE372342F59B00D1532E /* AppDelegate.swift in Sources */,
+				158CAE392342F59B00D1532E /* SceneDelegate.swift in Sources */,
+				158CAE4E2342FADA00D1532E /* SiswaTableViewController.swift in Sources */,
+				157CB67523430D0000DDCAD5 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		158CAE3C2342F59B00D1532E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				158CAE3D2342F59B00D1532E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		158CAE442342F59E00D1532E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				158CAE452342F59E00D1532E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		158CAE482342F59E00D1532E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		158CAE492342F59E00D1532E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		158CAE4B2342F59E00D1532E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGUA98U4CD;
+				INFOPLIST_FILE = "Core Data Siswa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yudha.Core-Data-Siswa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		158CAE4C2342F59E00D1532E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGUA98U4CD;
+				INFOPLIST_FILE = "Core Data Siswa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yudha.Core-Data-Siswa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		158CAE2E2342F59B00D1532E /* Build configuration list for PBXProject "Core Data Siswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158CAE482342F59E00D1532E /* Debug */,
+				158CAE492342F59E00D1532E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158CAE4A2342F59E00D1532E /* Build configuration list for PBXNativeTarget "Core Data Siswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158CAE4B2342F59E00D1532E /* Debug */,
+				158CAE4C2342F59E00D1532E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		158CAE3F2342F59B00D1532E /* Core_Data_Siswa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				158CAE402342F59B00D1532E /* Core_Data_Siswa.xcdatamodel */,
+			);
+			currentVersion = 158CAE402342F59B00D1532E /* Core_Data_Siswa.xcdatamodel */;
+			path = Core_Data_Siswa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 158CAE2B2342F59B00D1532E /* Project object */;
+}
